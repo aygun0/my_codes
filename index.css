@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+}
+
+body{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ background-color: black;
+}
+
+div {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    align-items: center;
+   gap: 20px;
+   background-color: rgb(29, 29, 29);
+   width: 300px;
+   padding: 20px;
+   border-radius: 10px;   
+}
+
+ button{
+    width: 200px;
+    height: 30px;
+    align-items: center;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+   
+
+}
+
+ button:hover{
+    background-color: rgb(100, 207, 100);
+    transition: 0.3s;
+ }
+
+
+
+div > img{
+    width: 100px;
+    height: 130px;
+    border-radius: 100%;
+  
+
+}
+
+div > h2{
+color: white;
+}
+
+.name{
+    color: rgb(4, 112, 4);
+    margin-top: -20px;
+}
+
+.about{
+    color: white;
+    
+}
+
